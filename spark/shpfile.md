@@ -13,7 +13,7 @@ Shapefile stores nontopological geometry and attribute information. An ESRI shap
 ### Name Criteria
 Three files have same prefix, prefix are of following format
 
-(a-Z | 0-9)(a-Z | 0-9 | _ | - )<sup>*</sup>.	Where lenth of second part is 0-7.
+(a-Z or 0-9)(a-Z or 0-9 or _ or - )<sup>*</sup>.	Where lenth of second part is 0-7.
 
 ### Numerric types
 - Integer: Signed 32-bit integer(4 bytes)
@@ -78,7 +78,7 @@ dBase File can be seen as an custumized extension of shp. Features other than sh
 ### Before Start
 
 Problems to be figured out:
-- [ ] How Endian affects the implementation of our parser.(maybe should read in reverse order?)
+- [x] How Endian affects the implementation of our parser.(maybe should read in reverse order?)
 - [ ] How to build and run projects with multiple classes on Spark. (Only know how to run single class)
 - [ ] Understanding Data structures in GeoSpark. What PointRdd, RectangleRDD, what they mean.
 - [ ] GeoSpark utilization. (How to wrap data we parsed from shape file into formats in GeoSpark?)
