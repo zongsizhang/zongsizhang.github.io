@@ -78,7 +78,8 @@ dBase File can be seen as an custumized extension of shp. Features other than sh
 ### Before Start
 
 Problems to be figured out:
-- [x] How Endian affects the implementation of our parser.(maybe should read in reverse order?)
+
+- [ ] How Endian affects the implementation of our parser.(maybe should read in reverse order?)
 - [ ] How to build and run projects with multiple classes on Spark. (Only know how to run single class)
 - [ ] Understanding Data structures in GeoSpark. What PointRdd, RectangleRDD, what they mean.
 - [ ] GeoSpark utilization. (How to wrap data we parsed from shape file into formats in GeoSpark?)
