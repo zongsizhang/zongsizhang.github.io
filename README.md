@@ -10,6 +10,7 @@ This a note for Zongsi Zhang
 ### DP
 
 ## Data
+- [spark & hadoop, learning resources](spark/resources.md)
 - [Sahpefile from ESRI](spark/shpfile.md)
 
 ## design modes

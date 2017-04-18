@@ -2,6 +2,8 @@
 
 ## Bibligraphy
 ESRI shapefile technical description
+https://github.com/harsha2010/magellan
+https://github.com/Esri/geometry-api-java
 
 
 ## Shapefile Description
@@ -85,5 +87,18 @@ Problems to be figured out:
 - [ ] Understanding Data structures in GeoSpark. What PointRdd, RectangleRDD, what they mean.
 - [ ] GeoSpark utilization. (How to wrap data we parsed from shape file into formats in GeoSpark?)
 
+### Possible solutions
+
+#### Magellan Library
+
+https://github.com/harsha2010/magellan
+
+Can be downloaded from github. Coded in scala, work on spark.
+
+#### Esri/geometry-api-java
+
+https://github.com/Esri/geometry-api-java
+
+Coded in java, but only work on spark. Need transplant.
 
 
