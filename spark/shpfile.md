@@ -4,6 +4,8 @@
 ESRI shapefile technical description
 https://github.com/harsha2010/magellan
 https://github.com/Esri/geometry-api-java
+https://github.com/Esri/geometry-api-java/wiki  explanations of geometry types.
+https://community.hortonworks.com/articles/44319/geo-spatial-queries-with-hive-using-esri-geometry.html     How to use esri hadoop api
 
 
 ## Shapefile Description
@@ -160,7 +162,7 @@ dBase File can be seen as an custumized extension of shp. Features other than sh
 Problems to be figured out:
 
 - [x] Fiture out the structure of shapefile.
-- [ ] How Endian affects the implementation of our parser.(maybe should read in reverse order?)
+- [x] How Endian affects the implementation of our parser.
 - [ ] How to build and run projects with multiple classes on Spark. (Only know how to run single class)
 - [ ] Understanding Data structures in GeoSpark. What PointRdd, RectangleRDD, what they mean.
 - [ ] GeoSpark utilization. (How to wrap data we parsed from shape file into formats in GeoSpark?)
