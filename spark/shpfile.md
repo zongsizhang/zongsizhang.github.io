@@ -2,10 +2,16 @@
 
 ## Bibligraphy
 ESRI shapefile technical description
+
 https://github.com/harsha2010/magellan
+
 https://github.com/Esri/geometry-api-java
+
 https://github.com/Esri/geometry-api-java/wiki  explanations of geometry types.
+
 https://community.hortonworks.com/articles/44319/geo-spatial-queries-with-hive-using-esri-geometry.html     How to use esri hadoop api
+
+http://docs.oracle.com/bigdata/bda48/BDVAJ/oracle/spatial/spark/vector/class-use/SparkRecordInfoProvider.html   An interface that accept record length.
 
 
 ## Shapefile Description

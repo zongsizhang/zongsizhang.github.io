@@ -12,6 +12,7 @@ This a note for Zongsi Zhang
 ## Data
 - [spark & hadoop, learning resources](spark/resources.md)
 - [Sahpefile from ESRI](spark/shpfile.md)
+- [Load Binary File with Spark](spark/sparkreadbinary.md)
 
 ## design modes
 - [Simple Factory Pattern](designmode/simplefactory.md)
