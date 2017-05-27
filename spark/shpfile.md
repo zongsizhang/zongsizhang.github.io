@@ -13,6 +13,9 @@ https://community.hortonworks.com/articles/44319/geo-spatial-queries-with-hive-u
 
 http://docs.oracle.com/bigdata/bda48/BDVAJ/oracle/spatial/spark/vector/class-use/SparkRecordInfoProvider.html   An interface that accept record length.
 
+## Existed Java Library
+https://github.com/Esri/geometry-api-java. 
+
 
 ## Shapefile Description
 Shapefile stores nontopological geometry and attribute information. An ESRI shapefile consists of three specific files.
