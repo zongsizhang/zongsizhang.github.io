@@ -69,7 +69,13 @@ public RecordReader<ShapeKey, BytesWritable> createRecordReader(InputSplit split
 
 According to the log, we can also ensure that only one task is registered for reading shapefile. So the only possible reason is that fileSys.open(Path) loses the track of original order of pieces.
 
-### A unuseful but interesting solution
+### A solution that works
 
-I tried to use InputStream utils from Java.io to replace hadoop interfaces. But it failed to read file from hdfs. The report shows that the program can't find the file by the uri we provide.
+Two vital changes that are involved:
+
+- Stop casting FSDataInputStream into DataInputStream, use FSDataInputStream as it is. FSDataInputStream hold some descriptors of the file on hdfs that can't be captured by DataInputStream, which lead to error.
+
+- Using readFully(byte[], offset, len) instead of read(). read() only reads up to 'len' bytes. This is not good because if current buffer get the input cut not appropriately. So we call readFully to enforce the inputStream to read len bytes.
+
+Potential problems may exists because we now have only one datanode and it's same as namenode. I may update this if those problem come out.
 
