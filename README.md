@@ -15,6 +15,7 @@ This a note for Zongsi Zhang
 - [Load Binary File with Spark](spark/sparkreadbinary.md)
 - [resources](spark/articles.md)
 - [RDD, DataFrame and DataSet](spark/dsdfrdd.md)
+- [small file problems](spark/smallfileproblems.md)
 
 
 ## design modes
