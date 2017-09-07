@@ -1,0 +1,16 @@
+# Java Collection
+
+## Lists
+
+| Name          | Implementation              | visit          | insert          | delete  | 
+| ArrayList     | dynamic array               | O(1)           | O(n)            | O(n)    |
+| LinkedList    | Linked list                 | O(n), k is id  | O(1)            | O(1)    |
+| vector        | dynamic array, thread safe  | O(1)           | O(n)            | O(n)    |               
+
+## Map
+Map 
+
+| Name          | Implementation              | visit          | insert          | delete                 |
+| ArrayLis
+
+
