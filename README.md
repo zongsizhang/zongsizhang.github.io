@@ -16,6 +16,7 @@ This a note for Zongsi Zhang
 - [resources](spark/articles.md)
 - [RDD, DataFrame and DataSet](spark/dsdfrdd.md)
 - [Solutions to loading small shapefiles](spark/smallfileproblems.md)
+- [Developing on PySpark](spark/pyspark.md)
 
 
 ## design modes
