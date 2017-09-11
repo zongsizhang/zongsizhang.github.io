@@ -6,7 +6,7 @@ pyspark has done a lot of works on optimizing communication between local python
 
 pyspark use py4j to communicate python object and java object, pickle to serialize and deserialize python objects. This is a bad news, since for every piece of data pyspark will do serialization works two times to make it work in cluster.
 
-[pyspark runtime](images/pysparkruntime.png)
+![pyspark runtime](images/pysparkruntime.png)
 
 With Py4j, we are able to call all functions of objects in jvm with their id. So it's possible to just add a python shell on geospark so that every time user call a function in python, we just translate commands into java codes by py4j.
 
