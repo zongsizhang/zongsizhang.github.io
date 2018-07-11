@@ -7,7 +7,8 @@ This a note for Zongsi Zhang
 - (109) [Convert Sorted List to Binary Search Tree(self balanced)](leetcode/109.md)
 - (145) [Binary Tree Postorder Traversal](leetcode/145.md)
 
-### DP
+### DB
+- [mysql metadata](db/mysql_metadata.md)
 
 ## Data
 - [spark & hadoop, learning resources](spark/resources.md)
