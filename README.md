@@ -24,3 +24,7 @@ This a note for Zongsi Zhang
 ## design modes
 - [Simple Factory Pattern](designmode/simplefactory.md)
 - [Strategy Pattern](designmode/strategy.md)
+
+## python
+
+- [python test](python/python_test.md)
